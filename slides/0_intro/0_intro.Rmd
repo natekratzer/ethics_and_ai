@@ -1,0 +1,59 @@
+---
+title: "Welcome to AI and Ethics"
+subtitle: "MSBA 680"   
+author: 
+  - "Dr. Nate Kratzer"
+date: "2021-07-01"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#1381B0",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+## Course Overview
+
+- Course Content
+  - Ethics
+  - Society
+  - Data Science
+  - 15 lessons over 5 classes
+  - Link to syllabus:
+
+- About me
+  - Here because I like teaching, I like discussing ethics and society, and I like data science
+  - Undergrad in Philosophy, PhD in Public Policy, now Lead Data Scientist at Brown-Forman
+  - First time teaching this class, but not my first time teaching 
+
+---
+class: center middle
+
+![xkcd comic "here to help"](img/here_to_help.png)
+##### Source: https://xkcd.com/1831/
