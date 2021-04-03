@@ -1,0 +1,276 @@
+---
+title: "Syllabus for MSBA 680: Ethics and AI"
+author: "Nate Kratzer"
+date: '2021-07-01'
+output:
+  html_document:
+    includes:
+      in_header: header.html
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
+---
+
+## Basic Information
+
+Instructor: Nate Kratzer
+
+Phone: 502-565-8545 (cell)
+
+Email: nate.kratzer@gmail.com
+
+Class Times:
+
+Office Hours: By Appointment  
+
+
+## Course Information
+
+### Room 
+TBD
+
+### Required texts
+
+- Justice by Michael Sandel
+- Weapons of Math Destruction by Cathy O’Neil
+- Automating Inequality by Virginia Eubanks
+- Data Feminism by Catherine D’Ignazio and Lauren F. Klein
+- Algorithms of Oppression by Safiya Umoja Noble
+
+### Course Description
+
+Artificial Intelligence now forms a large part of the background of our lives, influencing the news we read, the music we listen to, and the jobs we get. For better and for worse, AI now helps to shape our personal, social, and political reality. This course examines the ethical implications of applied AI work, considering both where AI has offered benefits and where AI has served to scale existing biases or to obscure the responsibility of decision makers. The class is open to graduate students from all departments.
+
+### Prerequisites
+- Good standing in the graduate school
+
+### Learning Objectives
+- Basic understanding of major systems of ethical thought
+- Understanding  how AI works and is currently applied 
+- Understanding major objections to AI systems and sources of bias
+- Understanding when and where AI systems can be beneficial
+- Understanding key safeguards for applied AI research
+
+### Learning Outcomes
+- Ability to think critically about the role of AI in our current society
+- Ability to persuasively communicate to others about the role of AI in our current society
+
+### Final Drop
+- Please contact the College of Business Graduate Office
+
+## Evaluation
+
+### Grading Scale
+
+| Percent     | Letter Grade |
+| :---        | :---         |
+|97.0 - 100.0 | A+           |
+|93.0 -  96.9 | A            |
+|90.0 -  92.9 | A-           |
+|87.0 -  89.9 | B+           |
+|83.0 -  86.9 | B            |
+|80.0 -  82.9 | B-           |
+|77.0 -  79.9 | C+           |
+|73.0 -  76.9 | C            |
+|70.0 -  72.9 | C-           |
+|00.0 -  69.9 | F            |
+
+### Grading Scheme
+
+| Component                | Weight |
+| :---                     | :---   |
+| Class Participation      | 30%    |
+| Weekly Reflection Papers | 30%    |
+| Final Essay or Project   | 40%    |
+
+#### Class Participation 
+One of the main objectives of the course is to be able to discuss ethics and AI, so class participation is weighted more heavily than in most classes. However, I also recognize that not everyone feels as comfortable speaking extemporaneously in class (e.g. introversion, English not being a native language) so class participation credit can also be given for discussing online or with small groups. The crucial part is to show critical engagement with the material beyond simply doing the reading.
+
+#### Weekly Reflection Papers
+Each week you should write a 1-2 page reflection paper on 1 of the readings assigned that week. This should be focused on your thoughts about the reading, it is not a summary. 
+
+#### Final Essay or Project 
+If writing an essay, this should be 6-8 pages applying an ethical framework to a current application of AI. You should research how that AI works, why it was implemented, what problem it is supposed to solve, potential biases in data and implementation, relevant regulations in that field, and suggestions you have for improving (or possibly getting rid of) that AI. If choosing the project option, this is more flexible, so projects should be approved by me before starting. An example here is coding a dashboard (e.g. R Shiny or Python’s Streamlit or Dash) that demonstrates different mathematical definitions of fairness being applied to a dataset. 
+
+## Tentative Schedule
+
+Each week’s 3.5 hour class is split into 3 lessons, with short breaks in between lessons. 
+
+### Class 1: Introducing AI and Ethics
+
+<br>
+
+#### Lesson 1: Case Study: Allegheny Family Screening Tool
+Readings
+
+- Automating Inequality Chapter 4 
+- NYT Feature Article (https://www.nytimes.com/2018/01/02/magazine/can-an-algorithm-tell-when-kids-are-in-danger.html) 
+
+<br>
+
+#### Lesson 2: Ethics 
+Readings
+
+- Justice Chapter 1
+
+<br>
+
+#### Lesson 3: Intro to AI
+Readings 
+
+- Weapons of Math Destruction: Intro, Chapter 1, Chapter 2
+
+<br>
+
+### Class 2: Math and Fairness
+
+<br>
+
+#### Lessons 4-5: The lending problem: 
+Readings
+
+- Attacking discrimination with smarter machine learning: https://research.google.com/bigpicture/attacking-discrimination-in-ml/
+- Delayed Impact of Fair Machine Learning: https://bair.berkeley.edu/blog/2018/05/17/delayed-impact/ 
+- ML-fairness-gym: A Tool for Exploring Long-Term Impacts of Machine Learning Systems: https://ai.googleblog.com/2020/02/ml-fairness-gym-tool-for-exploring-long.html 
+- How Inclusive Data Builds Stronger Brands: https://www.thinkwithgoogle.com/feature/ml-fairness-for-marketers/ 
+- A Qualitative Exploration of Perceptions of Algorithmic Fairness: https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe22316985a07a2f07b5bd153757eccd0e5.pdf
+
+<br>
+
+#### Lesson 6: Objective Viewpoints?
+Reading
+
+- Data Feminism Chapter 3
+
+<br>
+
+### Class 3: Data and Marginalized Groups
+
+<br>
+
+#### Lesson 7: Poverty
+Reading
+
+- Automating Inequality Chapter 2: Automating Eligibility in the Heartland
+
+<br>
+
+#### Lesson 8: Gender
+Reading
+
+- Data Feminism Chapter 1
+
+<br>
+
+#### Lesson 9: Race
+Reading
+
+- Algorithms of Oppression Chapter 3
+
+<br>
+
+### Class 4: Privacy
+
+<br>
+
+#### Lesson 10: Privacy and GDPR
+Reading
+
+- Algorithms of Oppression Chapter 4
+
+<br>
+
+#### Lesson 11: Surveillance Capitalism
+Reading
+
+- NYT article on surveillance capitalism
+
+<br>
+
+#### Lesson 12: News, Social Media, and Democracy
+Reading
+
+- ‘On the Dangers of Stochastic Parrots: Can Language Models be too Big?’ by Bender Et Al. https://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf
+
+<br>
+
+### Class 5: Conclusions
+
+<br>
+
+#### Lesson 13: Ethics revisited
+Reading
+
+- Justice Chapter 10
+
+<br>
+
+#### Lesson 14: Show your work
+Reading
+
+- Data Feminism Chapter 7
+
+<br>
+
+#### Lesson 15: The Way Forward
+Reading
+
+- TBD
+
+<br>
+
+## Student Responsibilities/College and University Issues
+
+University of Louisville student conduct and responsibilities
+This course will abide by University of Louisville student conduct and responsibilities with regards to ethics and related issues:
+http://louisville.edu/dos/students/policies-procedures/student-handbook.html#codeofstudentconduct
+
+College of Business student conduct and responsibilities
+This course will abide by College of Business student conduct and responsibilities with regards to ethics and related issues:
+http://business.louisville.edu/students/college-of-business-academic-dishonesty-policy
+
+Religious holiday conflict policy
+http://louisville.edu/diversity/resources/work-restricted-holy-day-policies-calendar.html
+
+University policy on equal access
+http://louisville.edu/disability/policies-procedures
+
+Title IX/Clery Act Notification
+Sexual misconduct (including sexual harassment, sexual assault, and any other nonconsensual behavior of a sexual nature) and sex discrimination violate University policies.  Students experiencing such behavior may obtain confidential support from the PEACC Program (852-2663), Counseling Center (852-6585), and Campus Health Services (852-6479). To report sexual misconduct or sex discrimination, contact the Dean of Students (852-5787) or University of Louisville Police (852-6111). 
+ 
+Disclosure to University faculty or instructors of sexual misconduct, domestic violence, dating violence, or sex discrimination occurring on campus, in a University-sponsored program, or involving a campus visitor or University student or employee (whether current or former) is not confidential under Title IX.  Faculty and instructors must forward such reports, including names and circumstances, to the University’s Title IX officer. 
+
+For more information, see the Sexual Misconduct Resource Guide
+(http://louisville.edu/hr/employeerelations/sexual-misconduct-brochure).
+
+COVID-19 Guidelines
+
+As a Community of Care, all Cardinals are expected to abide by public health guidelines and regulations as published by the University. For Fall 2020, this includes:
+
+1. wearing of cloth/paper masks (covering nose and mouth) when in shared indoor spaces like classrooms, or when appropriate physical distancing cannot be maintained. (Per the Code of Student Conduct, a student who refuses to follow these guidelines may be asked to leave a classroom)
+2. staying home when sick—any UofL community member experiencing fever, consistent dry cough, or other symptoms of contagious disease should remain at home until symptoms subside or advised that it is safe to return by a medical professional.
+3. practicing good hygiene and responsibility for one’s own surrounding.
+    + Cover sneezes and coughs
+    + Wash hands frequently with soap and water when possible, use hand sanitizer when soap and water are not available
+    + Wipe down frequently touched surfaces
+    + Maintain 6 feet physical distancing when possible
+  
+Faculty have the responsibility to help students meet these recommendations by:
+
+1. allowing for remote participation in class when necessary and practicable
+2. allowing students absent for reason of illness to make up missed work and not penalize students for these absences
+3. not requiring doctor’s notes for absences of less than the equivalent of two weeks of class. If the absences occur on the day of a scheduled assessment, the student may be asked to provide documentation for the absence.
+4. Notifying Physical Plant when classrooms are not adequately stocked with cleaning supplies and arranging classroom furniture or seating charts to maximize physical distancing where possible.
+
+
+
+
+
+
+
+
+
+
