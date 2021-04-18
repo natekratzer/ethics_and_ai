@@ -1,0 +1,118 @@
+---
+title: "Intro to Ethics"
+author: 
+  - "Dr. Nate Kratzer"
+date: "2021-07-01"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      titleSlideClass: ["bg_water", "inverse", "center", "middle"]
+---
+
+class:bg_water
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#1381B0",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{css, echo = F}
+.bg_water {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_water::before {    
+      content: "";
+      background-image: url('img/water.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+```
+
+## Ethics and Justice
+
+- In a broad sense
+    - Ethics: personal behavior
+    - Justice: social institutions
+    
+- We will talk some about our personal ethical responsibilities as data scientists
+
+- The question of how AI changes society is a question of Justice
+
+    
+- "Justice is what love looks like in public" - Cornel West
+    
+---
+
+class: bg_water
+
+## Ethics as a matter of taste
+
+- This is usually a criticism, and while I don't think it's a perfect analogy, there is something we can take from it.
+
+- While tastes does vary some from person to person, in broad strokes it's actually pretty set
+    - Humans like fat, sugar, salt, etc. 
+    - Also food tastes better than things that aren't food
+    - Within the range of things we agree are edible for humans, yes, there's variation
+    - But we all agree that ice cream tastes better than dog shit
+    
+- Our tastes aren't well adapted to a situation where fat and sugar are plentiful. 
+
+- Our ethical intuition is also not well adapted to the current situation
+    - Our naturally good intentions may not be enough in a complicated world
+    - Introducing complex AI into a complex society is pushing beyond our intuitive sense of ethics
+    
+---
+
+class: bg_water
+
+## Ethical Progress
+
+- There's actually been a lot of this.
+    - We now think that it's not only white property holding men who count as people. 
+    - That strikes me as more important than any of the technological advances of the past century.
+
+- Sometimes studying ethics makes it seem like nothing is settled, but that's because it's the unsettled cases that are interesting
+
+---
+
+## Justice
+
+- 
+
+
+---
+
+## Singer's Thought Experiment
+

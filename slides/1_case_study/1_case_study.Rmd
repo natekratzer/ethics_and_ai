@@ -59,6 +59,7 @@ style_duo_accent(
       opacity: 0.25;
       z-index: -1;
 }
+
 ```
 
 ## General AI or Current AI
