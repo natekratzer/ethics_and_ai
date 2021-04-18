@@ -100,4 +100,180 @@ class:bg_circuit
 
 ## Allegheny Family Screening Tool
 
-- The Allegheny Family Screening Tool is
+- The Allegheny Family Screening Tool (AFST) is a product of the Allegheny County Office of Children, Youth, and Families (CYF)
+
+- The goal is to determine which reports of suspicious circumstances are most likely to be child abuse
+
+- About 3/4 of child welfare investigations are about neglect
+
+- Sources
+    - Automating Inequality
+    - NYT Article
+    
+---
+
+class:bg_circuit
+
+## An example or risk scoring
+
+Risk scores are on a scale of 1-20. Where do you think these two case fall?
+
+.pull-left[
+
+- Stephen
+    - 6 years old
+    - Stephen's mom found him locked out on the porch and suspected possible abuse
+    - A week later a homeless service agency reported him to CYF for poor hygiene and rumors his mother was using drugs
+    - No other record with CYF
+
+]
+
+.pull-right[
+
+- Krysztof
+    - 14 years old
+    - Cold house from broken door and window in Nov.
+    - Cluttered house, urine smell, family sleeps in living room
+    - Long family history with county programs
+
+]
+
+--
+
+.pull-left[
+
+- Risk Score: 5
+]
+
+.pull-right[
+
+- Risk Score: 14
+]
+
+---
+
+class: bg_circuit
+
+## AFST Database
+
+- Database created in 1999, now has 1 billion records, average of 800 per resident. 
+- 29 programs send extracts
+    - unemployment office
+    - local school districts
+    - housing authority
+    - police
+    - jail; juvenile probation
+    - drug and alcohol services
+- Costs 15 million per year (2% of budget)
+
+---
+
+class: bg_circuit
+
+## AFST project origins
+
+- Project originated in New Zealand with a team of academics
+- Predictive model with 132 variables
+    - length of time on public benefits
+    - past involvement with child welfare system
+    - mother's age
+    - born to single parent
+    - mental health
+    - correctional history
+- Accuracy was "fair, approaching good" in the academic's self-assessment
+- Shelved by New Zealand after public objections and a new Social Development Minister took office
+
+---
+
+class: bg_circuit
+
+## How AFST is used
+
+- AFST is step 3 in a 3-step process
+    1. Does it meet PA's definition of maltreatment?
+    2. Is there present or impending danger?
+    3. AFST risk score based on family history
+    
+- Ideally, the screeners will understand and question the model
+    - "I want them to be able to say this [screening score] is a twenty, but this allegation is so minimal that [all] this model is telling me is that there's history" (Automating Inequality, p. 139)
+
+- Do you think this is how the model actually gets used?
+
+--
+
+- "We tend to defer to machines, which can seem more neutral, more objective" (p. 142)
+- "Models are opinions embedded in mathematics" - Cathy O'Neil (p.142)
+
+---
+
+class: bg_circuit
+
+## Choices made in AFST 
+
+- Outcome variables
+- Predictive variables
+- Validation data
+
+--- 
+
+class: bg_circuit
+
+## Outcome variables
+
+- There are a few possible metrics
+    - Actual fatalities and near fatalities of children: Thankfully, there aren't enough of these to build a model on this data
+    - CYF substantiation of child maltreatment: CYF substantiates when there _may_ have been maltreatment. They may also substantiate to get families access to food stamps or affordable housing. 
+    
+- The system uses two proxies
+    - Community re-referral: call to hotline is initally screened out, but there is another call within 2 years
+    - Child placement: child is placed in foster care within two years
+    
+"So the AFST actually predicts decisions made by the community (which families will be reported to the hotline) and by the agency and the family courts (which children will be removed from their families), not which children will be harmed"
+
+---
+
+class: bg_circuit
+
+## Predictive variables
+
+- Stepwise Probit Regression
+    - The book labels this 'controversial', but I'll go ahead and say bad. 
+    - I refuse to use stepwise variable selection on pricing models for Jack Daniel's, which is really unimportant compared to  this application
+    - Not the main point here, but I'd recommend either LASSO or a tree based method (Random Forest, Gradient Boosted Model)
+    
+- AFST tested 287 variables from the data warehouse and uses 131 of them. 
+
+- There is nothing in the method to justify causal inference, it's purely predictive. 
+
+---
+
+class: bg_circuit
+
+## Validation data
+
+- Model tested on 76,964 referalls from April 2010 to April 2014
+- 76% accuracy, halfway between coinflip and perfect
+- Same as yearly mammogram (which are now recommended to occur less because of false positives)
+
+---
+
+class: bg_circuit
+
+## Summary
+
+"The AFST has inherent design flaws that limit its accuracy. It predicts referrals to the child abuse and neglect hotline and removal of children from their families - hypothetical proxies for child harm - not actual child maltreatment. The data set it utilizes contains only information about families who access public services, so it may be missing key factors that influence abuse and neglect. Finally, it's accuracy is only average. It is guaranteed to produce thousands of false negatives and positives annually." (p. 144)
+
+- The data warehouse only has data on _public_ programs, not private ones
+- The CYF has two roles that contradict
+    - provider of family support
+    - investigator of maltreatment
+- Bias in child welfare services comes more from referals than screening
+    - The community is more likely to call about non white families
+    - remember that one of our proxy outcomes is referals
+    
+- "the model confuses parenting while poor with poor parenting" (p. 156)
+    
+
+
+
+
