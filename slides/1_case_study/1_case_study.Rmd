@@ -214,7 +214,7 @@ class: bg_circuit
 - Predictive variables
 - Validation data
 
---- 
+---
 
 class: bg_circuit
 
@@ -228,7 +228,7 @@ class: bg_circuit
     - Community re-referral: call to hotline is initally screened out, but there is another call within 2 years
     - Child placement: child is placed in foster care within two years
     
-"So the AFST actually predicts decisions made by the community (which families will be reported to the hotline) and by the agency and the family courts (which children will be removed from their families), not which children will be harmed"
+> "So the AFST actually predicts decisions made by the community (which families will be reported to the hotline) and by the agency and the family courts (which children will be removed from their families), not which children will be harmed" (p. 142)
 
 ---
 
@@ -261,7 +261,7 @@ class: bg_circuit
 
 ## Summary
 
-"The AFST has inherent design flaws that limit its accuracy. It predicts referrals to the child abuse and neglect hotline and removal of children from their families - hypothetical proxies for child harm - not actual child maltreatment. The data set it utilizes contains only information about families who access public services, so it may be missing key factors that influence abuse and neglect. Finally, it's accuracy is only average. It is guaranteed to produce thousands of false negatives and positives annually." (p. 144)
+> "The AFST has inherent design flaws that limit its accuracy. It predicts referrals to the child abuse and neglect hotline and removal of children from their families - hypothetical proxies for child harm - not actual child maltreatment. The data set it utilizes contains only information about families who access public services, so it may be missing key factors that influence abuse and neglect. Finally, it's accuracy is only average. It is guaranteed to produce thousands of false negatives and positives annually." (p. 144)
 
 - The data warehouse only has data on _public_ programs, not private ones
 - The CYF has two roles that contradict
