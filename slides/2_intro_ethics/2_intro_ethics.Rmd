@@ -107,12 +107,139 @@ class: bg_water
 
 ---
 
-## Justice
+class: bg_water
 
-- 
+## Justice (Ch 1)
 
+- Price Gouging after a natural disaster
+  - AI makes it more efficient
+  
+> This is not the normal free market situation where willing buyers freely elect to enter into the marketplace and meet willing sellers, where a price is agreed upon based on supply and demand. In an emergency, buyers under duress have no freedom. Their purchases of necessities like save lodging are forced. (Charlie Crist)
 
 ---
 
+class: bg_water
+
+## Markets and Capitalism (sidenote)
+
+- There's nothing inconsistent about believing that markets are a great way to sell computers and t-shirts but a poor way to distribute insulin. 
+
+- Much like the price gouging question above, the question is not whether markets work in all circumstances (they don't) or if markets work in any circumstances (they do), the question is what circumstances do markets work well in and when are there other alternatives that might be better. 
+
+- One reason to discuss this in some depth is because a lot of AI is aimed at increasing market efficiency
+  
+
+---
+
+class: bg_water
+
+## Welfare, Freedom, and Virtue
+
+.pull-left[
+
+### Let Markets Set Prices
+
+- Welfare
+  - Markets promote through incentive structure
+  
+- Freedom
+  - Markets respect freedom of exchange
+  
+- Virtue
+  - We don't all agree on virtue and markets don't impose
+
+]
+
+
+.pull-right[
+
+### Stop Price Gouging
+
+- Welfare
+  - Clear harm to the price-gouged
+  
+- Freedom
+  - Exchange under duress isn't free
+  
+- Virtue
+  - Price gougers are greedy and taking advantage
+
+]
+
+
+???
+What other types of freedom might we be concerned with?
+What other types of good things outside of these 3 do we care about?
+
+---
+
+class: bg_water
+
+## Do we really have to figure out what people deserve?
+
+- The purple heart for PTSD?
+- Bailouts for the financial sector?
+  - Which are then spent on bonuses?
+  - If the bad times are out of their control, do they deserve credit for the good times?
+  
+- Computer Science and Economics are both fields that seem to try very hard to avoid this question
+  - They're also fields that produce a lot of data scientists
+  
+- The alternative to engaging in philosophy is settling philosophical questions without much thought and usually not very well.
+  
+---
+
+class: bg_water
+
+## Defining Justice
+
+> To ask whether a society is just is to ask how it distributes the things we prize - income and wealth, duties and rights, powers and opportunities, offices and honors. A just society distributes these goods in the right way; it gives each person his or her due. The hard questions begin when we ask what people are due, and why.
+
+- Maximizing Welfare
+  - Utilitarians and other consequentialists
+  
+- Freedom
+  - Libertarians
+  - Fairness and Positive Liberty (Rawls, Sen)
+
+- Virtue
+  - Aristotle
+  - Religious Right and Religious Left
+  
+---
+
+class: bg_water
+
+## The Trolley Problem
+
+- The Trolley
+- The Organ Harvest
+
+- Competing Principles
+  - Welfare (save more people)
+  - Freedom/Rights (wrong to kill an innocent even for a good purpose)
+  
+- In real life there's also uncertainty
+
+- The Goatherds in Afghanistan
+
+---
+
+class: bg_water
+
+## Public Ethics
+
+- Moral reflection comes from encountering difficult moral questions
+- We move back and forth between acting in the world and reflecting on our actions
+- We also engage with other people
+- This is foundationally a pragmatic view of morality
+- We don't just sit in an office and come up with some theory of the good life
+- We have to actually live - and then also reflect how we're living. 
+
+---
+
+class: bg_water
+
 ## Singer's Thought Experiment
+
 
