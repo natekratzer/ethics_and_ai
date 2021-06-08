@@ -348,8 +348,10 @@ class: bg_water
 
 
 ???
-1. Can we torture the daughter of a terrorist suspect?
+1. Can we torture the daughter of a terrorist suspect? Can we kill people to harvest their organs if it saves more. What if the people we're killing are sad? 
 2. John Stuart Mill walks back a lot of this
+
+Utility constrained by human rights with a bit more selfishness than full utility would imply seems close to how people actually operate
 
 ---
 
@@ -365,9 +367,52 @@ class: bg_water center middle
 
 # Libertarianism
 
----
+--- 
 
 class: bg_water center middle
+
+> only a minimal state limited to enforcing contracts and protecting people against force, theft, and fraud, is justified. Any more extensive state violates personal rights not to be forced to do certain things, and is unjustified
+
+Robert Nozick
+
+---
+
+## Libertarianism
+
+- Individual liberty is most important good
+
+- Two criteria for something to be just (Nozick)
+  - Justice in initial state of holdings
+  - Justice in transfer
+  
+- Notice that there's nothing about how happy people are or how equal people are. Only that they have the right to themselves and by extension to the results of their labor. 
+
+- If in 1993, the City of Chicago had forced Michael Jordan to come out of retirement to play basketball that would clearly be wrong (perhaps not from a Utilitarian perspective). 
+- Why is it then just to tax the earnings that he made from playing basketball, if it's unjust to force him to play?
+
+---
+
+class: bg_water
+
+## Objections to Libertarianism
+
+1. Taxation != Forced Labor
+2. The poor need the money more
+3. Jordan (and others) don't work alone
+4. Individuals implicitly consent to taxes by living in society
+5. Individuals are lucky to be born with the talents (and work ethic) they have
+
+??
+related to 5 is the critique that humans don't come from nowhere. We don't just spring up from the ground like mushrooms. We have families, friends, neighbors, and a whole web of social relationships
+
+---
+
+## Libertarians and AI
+
+- Constant surveillance is a libertarian nightmare
+- But people may also be consenting to their own surveillance
+
+- How do libertarians feel about privacy? 
 
 # Liberalism
 
