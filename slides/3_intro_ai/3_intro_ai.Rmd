@@ -1,0 +1,159 @@
+---
+title: "Intro to AI"
+author: 
+  - "Dr. Nate Kratzer"
+date: "2021-07-01"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      titleSlideClass: ["bg_water", "inverse", "center", "middle"]
+---
+
+class: bg_water
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#1381B0",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{css, echo = F}
+.bg_water {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_water::before {    
+      content: "";
+      background-image: url('img/water.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+```
+
+## Defining AI
+
+- For our purposes, any automated judgment or decision process
+
+- This stretches from a simple if-then statement to a deep neural network
+
+- While more complex AI does pose it's own challenges we can imagine a simple if then statement
+
+- IF in zip code XXXXX THEN deny loan
+
+---
+
+class: bg_water
+
+## Statistics and Machine Learning
+
+- Statistics has the data and the rules and comes up the the answers
+- Machine Learning has the data and the answers and comes up with the rules
+
+- The rules then get used on new cases
+
+---
+
+class: bg_water
+
+## Weapons of Math Destruction
+
+- On of the earlier books to bring attention to ethics and AI or data science (or big data as the book itself often refers to it). 
+- It's only a 6 year old book. This is a pretty new field
+- The chapters are full of examples. It's well worth reading, but our focus in this class isn't just to multiply examples of data systems making poor decisions, it's to figure out why this happens and when/if it can be prevented.
+
+---
+
+class: bg_water
+
+## Feedback required
+
+- Statistical systems require feedback to know if they need to be adjusted. Many systems don't really have that.
+- Does the Allegheny County Child Abuse system have a clear feedback mechanism?
+- What about teacher evaluation systems (O'Neil's example?)
+- What about a baseball model telling defenders how to shift their positions based on who is at bat?
+
+- "[These models] define their own reality and use it to justify their results. this type of model is self-perpetuating, highly destructive - and very common." (p. 7)
+
+---
+
+class: bg_water center middle
+
+> models, despite their reputation for impartiality, reflect goals and ideology. ... Our own values and desires influence our choices, from the data we choose to collect to the questions we ask. Models are opinions embedded in matehmatics
+
+Cathy O'Neil, Weapons of Math Destruction, p. 21
+
+---
+
+class: bg_water
+
+## Opacity, Scale, and Damage
+
+- Is the model opaque? Can people reasonably understand how it is making decisions that affect them?
+- Can the model scale up in a way where use is widespread?
+- Can the model negatively impact people?
+
+Examples: loan scores, recidivism scores, hiring systems, standardized teacher evaluations, college admissions
+
+---
+
+class: bg_water
+
+## The Great Recession
+
+- One of the wake up calls on the dangers of models was the Great Recession
+
+- A lot of things went wrong, but driving it all was a failure of risk assessment
+
+- The odds of a house in Denver defaulting were assumed to be independent from the odds of a house in Louisville defaulting. This was wrong.
+
+---
+
+class: bg_water
+
+## Where can AI go wrong?
+
+- The training data
+- The modeling assumptions
+- The choice of objective function
+
+???
+ask for examples in each
+training data has facial recognition
+modeling assumptions (how correlated are mortgage defaults or presidential votes across states)
+objective function - GDP for society? standardized tests for teachers
+
+
+
+
+
+

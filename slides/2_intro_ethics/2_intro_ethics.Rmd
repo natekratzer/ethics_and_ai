@@ -223,7 +223,8 @@ class: bg_water
 
 - The Goatherds in Afghanistan
 
-?? Goatherds problem is from Sandel p. 24
+??? 
+Goatherds problem is from Sandel p. 24
 
 - June 2005 a special forces team encountered goatherds in Afghanistan
 - Didn't know if they would inform others and didn't have a way to tie them up
@@ -250,7 +251,7 @@ class: bg_water center middle
 
 # Main Theories of Justice
 
---- 
+---
 
 class: bg_water
 
@@ -297,7 +298,10 @@ class: bg_water
 - The cost of saving the child is ruining your interview clothes and missing your interview
 - Should you save the child? Why?
 
---- 
+
+---
+
+---
 
 class: bg_water center middle
 
@@ -320,13 +324,15 @@ class: bg_water
 
 --- 
 
+---
+
 class: bg_water center middle
 
 > If it [the principle of acting to prevent bad things from happening] were acted upon, our lives, our society, and our world would be fundamentally changed. For the principle takes, firstly, no account of proximity or distance. It makes no moral difference whether the person I can help is a neighbor's child ten yards from me or a Bengali whose name I shall never know, ten thousand miles away. Secondly, the principle makes no distinction between cases in which I am the only person who could possibly do anything and cases in which I am just one among millions in the same position
 
 Peter Singer
 
---- 
+---
 
 class: bg_water
 
@@ -369,6 +375,8 @@ class: bg_water center middle
 
 --- 
 
+---
+
 class: bg_water center middle
 
 > only a minimal state limited to enforcing contracts and protecting people against force, theft, and fraud, is justified. Any more extensive state violates personal rights not to be forced to do certain things, and is unjustified
@@ -376,6 +384,8 @@ class: bg_water center middle
 Robert Nozick
 
 ---
+
+class: bg_water
 
 ## Libertarianism
 
@@ -396,16 +406,23 @@ class: bg_water
 
 ## Objections to Libertarianism
 
+Sandel
 1. Taxation != Forced Labor
 2. The poor need the money more
 3. Jordan (and others) don't work alone
-4. Individuals implicitly consent to taxes by living in society
+4. Individuals implicitly consent to taxes by living in society 
 5. Individuals are lucky to be born with the talents (and work ethic) they have
 
-??
+Others
+6. Is Liberty The GOOD, or is it one of many good things?
+7. Are there forms of power other than State power that should concern us?
+
+???
 related to 5 is the critique that humans don't come from nowhere. We don't just spring up from the ground like mushrooms. We have families, friends, neighbors, and a whole web of social relationships
 
 ---
+
+class: bg_water
 
 ## Libertarians and AI
 
@@ -414,12 +431,93 @@ related to 5 is the critique that humans don't come from nowhere. We don't just 
 
 - How do libertarians feel about privacy? 
 
+---
+
+class: bg_water center middle
+
 # Liberalism
+
+---
+
+class: bg_water
+
+# Liberalism and John Rawls
+
+- This is meant in the classic sense - not today's meaning of liberal
+
+- There are a lot of variations on this possible, but we'll focus on John Rawls
+
+--- 
+
+---
+
+class: bg_water
+
+# How to choose the rules
+
+- When we make rules for games, we try to push them towards our existing abilities
+- When we make rules for society, the same thing happens
+- In practice, this means those with power make rules that help them maintain power
+- Is there a way to get a set of rules without this sort of bias?
+
+# The Veil of Ignorance
+
+- What if we didn't know our own abilities or our eventual position in society? 
+
+---
+
+class: bg_water
+
+# Rules from the Veil
+
+1. A system of rights as extensive as is compatible with the same rights for all.
+2. Inequality is permitted only to the extent that it benefits the least well off.
+
+- Rawls assumes we will be risk averse behind the veil.
+- So we adopt a strategy of maximizing our worst possible position in society. 
+
 
 ---
 
 class: bg_water center middle
 
 # Virtue
+
+--- 
+
+---
+
+class: bg_water
+
+# Sandel's critique
+
+1. Individuals don't come from nowhere, they are part of a community and part of a story
+2. There is no way to be neutral on conceptions of the good life
+
+---
+
+class: bg_water center middle
+
+> Gross National Product counts air pollution and cigarette advertising, and ambulances to clear our highways of carnage. It counts the destruction of the redwood and the loss of our natural wonder in chaotic sprawl. It counts napalm and counts nuclear warheads and armored cars for police to fight the riots in our cities. It counts...the television programs which glorify violence in order to sell toys to our children. Yet the Gross National Product does not allow for the health of our children, the quality of their education, or the joy of their play. It does not include the beauty of our poetry or the strength of our marriages, the intelligence of our public debate or the integrity of our public officials. It measures neither our wit nor our courage, neither our wisdom or our learning, neither our compassion nor our deviation to our contry. It measures everything, in short, except that which makes life worthwhile. 
+
+Robert F. Kennedy
+
+---
+
+class: bg_water
+
+- A theory of justice that isn't neutral about conceptions of the good life requires a lot from citizens
+- Robust discussions with those they disagree with
+- A tolerance of ambiguous and competiting aims
+- It's also a fairly vague theory.
+
+- We'll return to it at the end of class
+
+---
+
+class: bg_water center middle
+
+Which ethical arguments did you find most compelling? 
+
 
 

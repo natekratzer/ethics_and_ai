@@ -82,9 +82,10 @@ Artificial Intelligence now forms a large part of the background of our lives, i
 
 | Component                | Weight |
 | :---                     | :---   |
-| Class Participation      | 30%    |
-| Weekly Reflection Papers | 30%    |
-| Final Essay or Project   | 40%    |
+| Class Participation      | 25%    |
+| Weekly Reflection Papers | 25%    |
+| Final Essay or Project   | 35%    |
+| Presentation             | 15%    |
 
 #### Class Participation 
 One of the main objectives of the course is to be able to discuss ethics and AI, so class participation is weighted more heavily than in most classes. However, I also recognize that not everyone feels as comfortable speaking extemporaneously in class (e.g. introversion, English not being a native language) so class participation credit can also be given for discussing online or with small groups. The crucial part is to show critical engagement with the material beyond simply doing the reading.
@@ -94,6 +95,10 @@ Each week you should write a 1-2 page reflection paper on 1 of the readings assi
 
 #### Final Essay or Project 
 If writing an essay, this should be 6-8 pages applying an ethical framework to a current application of AI. You should research how that AI works, why it was implemented, what problem it is supposed to solve, potential biases in data and implementation, relevant regulations in that field, and suggestions you have for improving (or possibly getting rid of) that AI. If choosing the project option, this is more flexible, so projects should be approved by me before starting. An example here is coding a dashboard (e.g. R Shiny or Python’s Streamlit or Dash) that demonstrates different mathematical definitions of fairness being applied to a dataset. 
+
+#### Presentation
+
+You should present your final project to the class. This should be a 5-7 minute presentation. It is a short time-frame, and the presentation should be polished and well-prepared. The short time limit is intentional. Concisely communicating on complex topics is an important skill. 
 
 ## Tentative Schedule
 
@@ -122,6 +127,8 @@ Readings
 Readings 
 
 - Weapons of Math Destruction: Intro, Chapter 1, Chapter 2
+
+Assignments: Weekly reflection paper due at start of next class
 
 <br>
 
@@ -170,6 +177,8 @@ Reading
 
 - Algorithms of Oppression Chapter 3
 
+Assignments: Weekly reflection paper due at start of this class
+
 <br>
 
 ### Class 4: Privacy
@@ -215,10 +224,9 @@ Reading
 
 <br>
 
-#### Lesson 15: The Way Forward
-Reading
+#### Lesson 15: Presentations
 
-- TBD
+Assignment: Final projects due
 
 <br>
 

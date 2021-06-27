@@ -49,7 +49,7 @@ style_duo_accent(
 
 - About me
   - Here because I like teaching, I like discussing ethics and society, and I like data science
-  - Undergrad in Philosophy, PhD in Public Policy, now Lead Data Scientist at Brown-Forman
+  - Undergrad in Philosophy, PhD in Public Policy, now a Manager of Data Science at Brown-Forman
   - First time teaching this class, but not my first time teaching 
 
 ---
