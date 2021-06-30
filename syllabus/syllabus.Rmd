@@ -3,13 +3,13 @@ title: "Syllabus for MSBA 680: Ethics and AI"
 author: "Nate Kratzer"
 date: '2021-07-01'
 output:
+  pdf_document:
+    toc: yes
   html_document:
     includes:
       in_header: header.html
     toc: yes
     toc_float: yes
-  pdf_document:
-    toc: yes
   word_document:
     toc: yes
 ---
@@ -20,9 +20,9 @@ Instructor: Nate Kratzer
 
 Phone: 502-565-8545 (cell)
 
-Email: nate.kratzer@gmail.com
+Email: nate.kratzer@louisville.edu
 
-Class Times:
+Class Times: 6:00 - 9:30 p.m. on July 1, 13, 15, 20, 22 of 2021
 
 Office Hours: By Appointment  
 
@@ -30,7 +30,7 @@ Office Hours: By Appointment
 ## Course Information
 
 ### Room 
-TBD
+BAB 224
 
 ### Required texts
 
@@ -196,6 +196,7 @@ Reading
 Reading
 
 - NYT article on surveillance capitalism
+https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html
 
 <br>
 

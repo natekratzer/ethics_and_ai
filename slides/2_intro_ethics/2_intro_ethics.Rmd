@@ -223,7 +223,7 @@ class: bg_water
 
 - The Goatherds in Afghanistan
 
-??? 
+???
 Goatherds problem is from Sandel p. 24
 
 - June 2005 a special forces team encountered goatherds in Afghanistan
@@ -299,7 +299,6 @@ class: bg_water
 - Should you save the child? Why?
 
 
----
 
 ---
 
@@ -322,7 +321,6 @@ class: bg_water
 - But we don't
 - Why is it different?
 
---- 
 
 ---
 
@@ -373,7 +371,6 @@ class: bg_water center middle
 
 # Libertarianism
 
---- 
 
 ---
 
@@ -447,7 +444,6 @@ class: bg_water
 
 - There are a lot of variations on this possible, but we'll focus on John Rawls
 
---- 
 
 ---
 
@@ -483,13 +479,12 @@ class: bg_water center middle
 
 # Virtue
 
---- 
 
 ---
 
 class: bg_water
 
-# Sandel's critique
+# Sandel's critique of liberalism
 
 1. Individuals don't come from nowhere, they are part of a community and part of a story
 2. There is no way to be neutral on conceptions of the good life
