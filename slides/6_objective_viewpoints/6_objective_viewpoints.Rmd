@@ -1,0 +1,125 @@
+---
+title: "Objective Viewpoints"
+author: 
+  - "Dr. Nate Kratzer"
+date: "2021-07-01"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      titleSlideClass: ["bg_water", "inverse", "center", "middle"]
+---
+
+class: bg_water
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#1381B0",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{css, echo = F}
+.bg_water {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_water::before {    
+      content: "";
+      background-image: url('img/water.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+```
+
+## Comparing Two Charts
+
+https://guns.periscopic.com/
+
+- How does the Periscopic Chart they open with make you feel? 
+- How does that compare to a more traditional bar chart?
+- Is one way of conveying the information better than another? Is one way biased?
+- How would it be different if the data was about car crashes? Why?
+
+---
+
+class: bg_water
+
+## Principles of Data Visualization
+
+- What do Tufte and Cairo suggest are good rules for data visualization?
+- What does the Storytelling with Data class say?
+
+---
+
+class: bg_water
+
+## The Quest for Neutral Data Viz
+
+- What does a neutral data visualization look like?
+- For example, how do you present the unemployment rate?
+
+---
+
+class: bg_water
+
+## Other science
+
+- Is medicine objective?
+- Is physics? 
+
+---
+
+class: bg_water
+
+## Data Presentations as Art
+
+- Are data visualizations an artistic expression of data?
+- What other artistic expressions of data are possible?
+
+---
+
+class: bg_water
+
+## Visualizing Uncertainty
+
+- Does the NYT election needle still give anyone else nightmares? Just me?
+- How does the needle reflect uncertainty?
+
+---
+
+class: bg_water
+
+## Recommendations
+
+- What do the authors recommend doing based on this chapter?
+- Why?
+

@@ -1,0 +1,166 @@
+---
+title: "The Lending Problem"
+author: 
+  - "Dr. Nate Kratzer"
+date: "2021-07-01"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      titleSlideClass: ["bg_water", "inverse", "center", "middle"]
+---
+
+class: bg_water
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#1381B0",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{css, echo = F}
+.bg_water {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_water::before {    
+      content: "";
+      background-image: url('img/water.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+```
+
+## Background
+
+Redlining Louisville: https://www.arcgis.com/apps/MapSeries/index.html?appid=a73ce5ba85ce4c3f80d365ab1ff89010
+
+---
+
+class: bg_water
+
+## Lending to Maximize Profit
+
+https://research.google.com/bigpicture/attacking-discrimination-in-ml/
+
+- Why does the profit maximizing strategy treat the two groups differently? What information does this mean a profit-maximizing model would include?
+- Is it okay for private actors to adopt the profit-maximizing strategy?
+
+
+---
+
+class: bg_water
+
+## Group Unaware Lending
+
+https://research.google.com/bigpicture/attacking-discrimination-in-ml/
+
+- What happens in the group unaware scenario? 
+- Why are the true positive rates so different between the groups?
+- How often do we see the group unaware scenario suggested as a solution in real life?
+- Is this a fair solution?
+
+---
+
+class: bg_water
+
+## Demographic Parity
+
+https://research.google.com/bigpicture/attacking-discrimination-in-ml/
+
+- An equal percent of each group gets a loan. Is this fair?
+- Should we focus on the true positive rate instead?
+- The true positive rate involves explicitly setting different thresholds for different groups, is that okay?
+
+
+---
+
+class: bg_water
+
+## Lending Problem
+
+https://research.google.com/bigpicture/attacking-discrimination-in-ml/
+
+- Should banks be responsible for setting a fairness standard (e.g. equal true positive rates)? If so, what standard and for which groups?
+- If banks should only maximize profit, should there be a set of regulartory constraints setting up a constrained optimization problem for banks? If so, what constraints?
+
+---
+
+class: bg_water
+
+## Delayed Impact
+
+https://bair.berkeley.edu/blog/2018/05/17/delayed-impact/
+
+- What is the threshold range for each group within which credit scores are improved over time? What is the threshold that maximizes it? Why?
+- Why do we care about future credit scores?
+
+---
+
+class: bg_water
+
+## Multiple Impacts
+
+https://bair.berkeley.edu/blog/2018/05/17/delayed-impact/
+
+- If we have two things we care about (immediate loans and future credit scores) can we maximize for both of them?
+- How do we determine what we care most about? Who gets to determine that?
+- Is average group credit score the only long-term effect we should care about? If it's not, what other impacts should we keep in mind?
+
+---
+
+class: bg_water
+
+## Feedback Loops and Fairness
+
+https://ai.googleblog.com/2020/02/ml-fairness-gym-tool-for-exploring-long.html
+
+- What are two issues with doing a fairness analysis on a hold-out 'test' set of data?
+- What lending rule is best for the disadvantage group?
+
+---
+
+class: bg_water
+
+## Groups over Time
+
+https://bair.berkeley.edu/blog/2018/05/17/delayed-impact/
+
+- Why don't equal True Positive Rates each year mean equal True Positive Rates over time?
+- What sort of difficulties are posed in a fairness analysis that needs to take into account multiple years?
+
+
+
+
+
+
+

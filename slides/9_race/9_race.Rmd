@@ -1,0 +1,84 @@
+---
+title: "Race"
+author: 
+  - "Dr. Nate Kratzer"
+date: "2021-07-01"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      titleSlideClass: ["bg_water", "inverse", "center", "middle"]
+---
+
+class: bg_water
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#1381B0",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{css, echo = F}
+.bg_water {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_water::before {    
+      content: "";
+      background-image: url('img/water.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+```
+
+## Learning from Google
+
+- What happened when Dylann Roof googled "black on white crime"?
+- Should Google change this?
+
+---
+
+class: bg_water
+
+## Google's Objective
+
+- What is Google's core objective?
+- What do people expect from Google?
+- Do these things line up?
+
+---
+
+class: bg_water
+
+## Imagining a search engine
+
+- If you were building a search engine, how would you build it?

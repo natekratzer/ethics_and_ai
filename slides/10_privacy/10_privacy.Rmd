@@ -1,0 +1,82 @@
+---
+title: "Privacy"
+author: 
+  - "Dr. Nate Kratzer"
+date: "2021-07-01"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      titleSlideClass: ["bg_water", "inverse", "center", "middle"]
+---
+
+class: bg_water
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#1381B0",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{css, echo = F}
+.bg_water {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_water::before {    
+      content: "";
+      background-image: url('img/water.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+```
+
+## The right to be forgotten
+
+- How long should our past be preserved and accessible to all?
+
+---
+
+class: bg_water
+
+## Race and the right to be forgotten
+
+- What are the differences in ads that come up when googling white names and Black names?
+
+---
+
+class: bg_water
+
+## Who owns our data?
+
+- What does it mean to give away our data?
+- Are we competent to make these kinds of contracts?

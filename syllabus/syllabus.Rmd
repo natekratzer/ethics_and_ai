@@ -136,16 +136,23 @@ Assignments: Weekly reflection paper due at start of next class
 
 <br>
 
-#### Lessons 4-5: The lending problem: 
+#### Lesson 4: The lending problem: 
 Readings
 
 - Attacking discrimination with smarter machine learning: https://research.google.com/bigpicture/attacking-discrimination-in-ml/
 - Delayed Impact of Fair Machine Learning: https://bair.berkeley.edu/blog/2018/05/17/delayed-impact/ 
 - ML-fairness-gym: A Tool for Exploring Long-Term Impacts of Machine Learning Systems: https://ai.googleblog.com/2020/02/ml-fairness-gym-tool-for-exploring-long.html 
+
+<br>
+
+#### Lesson 5: Fairness in Marketing:
+Readings
+
 - How Inclusive Data Builds Stronger Brands: https://www.thinkwithgoogle.com/feature/ml-fairness-for-marketers/ 
 - A Qualitative Exploration of Perceptions of Algorithmic Fairness: https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe22316985a07a2f07b5bd153757eccd0e5.pdf
 
 <br>
+
 
 #### Lesson 6: Objective Viewpoints?
 Reading
@@ -168,7 +175,7 @@ Reading
 #### Lesson 8: Gender
 Reading
 
-- Data Feminism Chapter 1
+- Data Feminism Introduction
 
 <br>
 
