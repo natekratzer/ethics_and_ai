@@ -1,5 +1,5 @@
 ---
-title: "Race"
+title: "Surveillance Capitalism"
 author: 
   - "Dr. Nate Kratzer"
 date: "2021-07-01"
@@ -60,30 +60,23 @@ style_duo_accent(
 }
 ```
 
-## Race and Poverty
+## Epistemic Chaos
 
-- Thinking back to the reading in Automating Inequality, how has race shaped our social systems?
-- How does the news media represent poverty? 
-
-## Learning from Google
-
-- What happened when Dylann Roof googled "black on white crime"?
-- Should Google change this?
+- What is epistemology?
+- Why does it matter for society?
+- How has AI changed it?
 
 ---
 
-class: bg_water
+## Facebook's Goal
 
-## Google's Objective
-
-- What is Google's core objective?
-- What do people expect from Google?
-- Do these things line up?
+- What is Facebook's main goal?
+- How does this conflict with other goals we might have?
 
 ---
 
-class: bg_water
+## Three principles
 
-## Imagining a search engine
-
-- If you were building a search engine, how would you build it?
+- What are the three principles the author suggests following?
+- Which ones do you think are most helpful?
+- Which ones do you disagree with?

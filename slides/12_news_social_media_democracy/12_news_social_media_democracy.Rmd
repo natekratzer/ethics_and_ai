@@ -1,5 +1,5 @@
 ---
-title: "Race"
+title: "News, Social Media, and Democracy"
 author: 
   - "Dr. Nate Kratzer"
 date: "2021-07-01"
@@ -60,30 +60,36 @@ style_duo_accent(
 }
 ```
 
-## Race and Poverty
+## Environmental and Financial Costs
 
-- Thinking back to the reading in Automating Inequality, how has race shaped our social systems?
-- How does the news media represent poverty? 
-
-## Learning from Google
-
-- What happened when Dylann Roof googled "black on white crime"?
-- Should Google change this?
+- What are hte environmental and financial costs of large language models?
+- How are the benefits and the costs distributed?
 
 ---
 
-class: bg_water
+## Training Data
 
-## Google's Objective
-
-- What is Google's core objective?
-- What do people expect from Google?
-- Do these things line up?
+- Why doesn't large training data solve bias?
+- Where does training data normally come from?
+- How do we keep training data up to date?
 
 ---
 
-class: bg_water
+## Encoding Bias
 
-## Imagining a search engine
+- How does bias get encoded into large language models?
 
-- If you were building a search engine, how would you build it?
+---
+
+## Harms
+
+- Is research power being misdirected to build language models?
+- What are the harms of these Stochastic Parrots?
+
+---
+
+## Paths Forward
+
+- What do the authors suggest is the correct way forward?
+- Do you agree? 
+
