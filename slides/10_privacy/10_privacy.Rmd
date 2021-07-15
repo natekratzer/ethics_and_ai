@@ -80,3 +80,4 @@ class: bg_water
 
 - What does it mean to give away our data?
 - Are we competent to make these kinds of contracts?
+

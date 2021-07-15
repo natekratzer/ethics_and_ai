@@ -2,7 +2,7 @@
 title: "Gender"
 author: 
   - "Dr. Nate Kratzer"
-date: "2021-07-01"
+date: "2021-07-15"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -60,17 +60,17 @@ style_duo_accent(
 }
 ```
 
-## Feminism
+## Feminism (Intro)
 
-- What is feminism?
-- What are some of the feminisms the authors note?
 - What is data feminism?
+
+- "A way of thinking about data, both their uses and their limits, that is informed by direct experience, by a commitment to action, and by intersectional feminist thought" (p. 8)
 
 ---
 
 class: bg_water
 
-## Intersectionality
+## Intersectionality (Intro)
 
 - What is the legal case that brought up the idea of intersectionality?
 - How could we mathematically model intersectionality?
@@ -80,17 +80,41 @@ class: bg_water
 
 class: bg_water
 
-## Data
+## Principles of Data Feminism (Intro)
 
-- Is data only numbers?
-- What sort of context does data require?
+- What are the core principles of Data Feminism?
+- Which ones make intuitive sense to you? Which ones seem more questionable?
 
 ---
 
 class: bg_water
 
-## Principles of Data Feminism
+## Demographics (Ch 1)
 
-- What are the core principles of Data Feminism?
-- Which ones make intuitive sense to you? Which ones seem more questionable?
+- What is 'privilege hazard'?
+- How does it show up in facial analysis software?
+- Where else has it shown up?
+
+---
+
+class: bg_water
+
+## Missing Data (Ch 1)
+
+- What is the library of missing datasets?
+- Why was it created?
+- Why does missing data matter?
+- If you could have data from anywhere data is missing, what data would you choose?
+
+---
+
+class: bg_water
+
+## Power (Ch 1)
+
+- What are the goals of the algorithms we develop?
+- Who decides on the goals and why does that matter?
+
+
+
 

@@ -2,7 +2,7 @@
 title: "Perception of Fairness in Marketing"
 author: 
   - "Dr. Nate Kratzer"
-date: "2021-07-01"
+date: "2021-07-13"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -85,6 +85,8 @@ class: bg_water
 
 ## Feelings about Ads
 
+https://www.thinkwithgoogle.com/feature/ml-fairness-for-marketers/#what-is-data-bias
+
 - How do customers feel about the ads that target them?
 
 ---
@@ -102,9 +104,9 @@ https://www.thinkwithgoogle.com/feature/ml-fairness-for-marketers/#what-is-data-
 
 class: bg_water
 
-https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe22316985a07a2f07b5bd153757eccd0e5.pdf
-
 ## Fairness Background
+
+https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe22316985a07a2f07b5bd153757eccd0e5.pdf
 
 - Do the findings for AirBnB and Pokemon GO surprise you? 
 - What's the most surprising example you've seen of an unfair algorithm?
@@ -113,9 +115,9 @@ https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe2231
 
 class: bg_water
 
-https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe22316985a07a2f07b5bd153757eccd0e5.pdf
-
 ## Research methods
+
+https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe22316985a07a2f07b5bd153757eccd0e5.pdf
 
 - How was the information for this study gathered?
 
@@ -124,6 +126,8 @@ https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe2231
 class: bg_water
 
 ## Causes of unfairness
+
+https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe22316985a07a2f07b5bd153757eccd0e5.pdf
 
 - What did the study participants think the main causes of algorithmic bias were?
 - How did their answers differ from the ones normally given in technical circles?
@@ -134,6 +138,8 @@ class: bg_water
 class: bg_water
 
 ## Best practices
+
+https://storage.googleapis.com/pub-tools-public-publication-data/pdf/002eabe22316985a07a2f07b5bd153757eccd0e5.pdf
 
 - What are the recommendations from this study?
 - Do you agree? Are there any you would add or subtract from the list?

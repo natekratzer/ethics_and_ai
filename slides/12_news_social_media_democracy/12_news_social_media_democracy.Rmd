@@ -62,7 +62,7 @@ style_duo_accent(
 
 ## Environmental and Financial Costs
 
-- What are hte environmental and financial costs of large language models?
+- What are the environmental and financial costs of large language models?
 - How are the benefits and the costs distributed?
 
 ---

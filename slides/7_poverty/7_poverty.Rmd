@@ -2,7 +2,7 @@
 title: "Poverty"
 author: 
   - "Dr. Nate Kratzer"
-date: "2021-07-01"
+date: "2021-07-15"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -60,13 +60,6 @@ style_duo_accent(
 }
 ```
 
-## Sophie
-
-- What is Sophie's Medicaid story?
-- Why were her benefits cut off?
-
----
-
 ## Rolling out the new system
 
 - What went wrong in the roll out?
@@ -74,10 +67,12 @@ style_duo_accent(
 
 ---
 
+class: bg_water
+
 ## The Hybrid System
 
 - How does the hybrid system work?
-- Is at an improvement?
+- Is it an improvement?
 - What changes would you suggest to the current system?
 
 
