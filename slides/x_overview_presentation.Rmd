@@ -2,7 +2,7 @@
 title: "Ethics and AI"
 author: 
   - "Dr. Nate Kratzer"
-date: "2021-07-23"
+date: "2021-08-13"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -12,10 +12,10 @@ output:
       highlightLines: true
       ratio: 16:9
       countIncrementalSlides: true
-      titleSlideClass: ["bg_water", "inverse", "center", "middle"]
+      titleSlideClass: ["bg_circuit", "inverse", "center", "middle"]
 ---
 
-class: bg_water
+class: bg_circuit
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -41,14 +41,14 @@ style_duo_accent(
 ```
 
 ```{css, echo = F}
-.bg_water {
+.bg_circuit {
   position: relative;
   z-index: 1;
 }
 
-.bg_water::before {    
+.bg_circuit::before {    
       content: "";
-      background-image: url('img/water.jpg');
+      background-image: url('img/circuit_board.jpg');
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -60,7 +60,24 @@ style_duo_accent(
 }
 ```
 
+## Welcome and Outline
 
+- I'm Nate Kratzer
+  - I'm a data science manager at Brown-Forman, managing one team that works on production (in Python) and another that works on pricing (in R)
+  - I'm also a philosophy and religion undergrad who really enjoys ethics and political philosophy
+  - I have a Ph.D. in public policy from the University of Kentucky
+  - I teach a class in AI and Ethics at the University of Louisville 
+
+- Outline
+  - Basic concepts
+  - Case Study
+  - Ethics
+  - AI
+  - Conclusions
+
+---
+
+class: bg_circuit
 
 ## Defining AI
 
@@ -74,7 +91,19 @@ style_duo_accent(
 
 ---
 
-class: bg_water
+class: bg_circuit
+
+## Algorithms and Bias
+
+- Yes. IF race == X THEN deny loan is clearly a biased algorithm.
+
+- Most algorithms are going to be more complicated.
+
+- An algorithm is just a set or rules to follow, or a procedure. 
+
+---
+
+class: bg_circuit
 
 ## Statistics and Machine Learning
 
@@ -82,14 +111,11 @@ class: bg_water
 - Machine Learning has the data and the answers and comes up with the rules
 
 - The rules then get used on new cases
+- One of the reasons machine learning algorithms deserve more scrutiny is because the rules (decision making process) they come up with are not easy to explain. 
 
 ---
 
-
-
----
-
-class: bg_water center middle
+class: bg_circuit center middle
 
 > models, despite their reputation for impartiality, reflect goals and ideology. ... Our own values and desires influence our choices, from the data we choose to collect to the questions we ask. Models are opinions embedded in matehmatics
 
@@ -98,7 +124,254 @@ Cathy O'Neil, Weapons of Math Destruction, p. 21
 
 ---
 
-class: bg_water
+## General AI or Current AI
+
+- Currently, artificial intelligence is only capable of performing very specific tasks. Not more general ones
+    - It's a vacuum, not a robot house cleaner
+    - There is a goal to eventually have truly general AI that can reason about new problems
+    
+- There is discussion around the long-term dangers of AI
+    - What would happen if we told a general AI to reduce human suffering as much as possible?
+    
+--
+
+- We didn't specify a few things
+    - What time frame?
+    - What about things other than humans (animals, plants, environment in general)?
+    
+- Perhaps more importantly
+    - Eliminating all humans would eliminate all human suffering
+    
+???
+Remember that the second part of this slide only shows up after advancing
+    
+---
+
+class:bg_circuit
+
+## Current AI
+
+- This sort of general AI does pose a lot of really fascinating ethical questions
+
+- But there is also a lot of currently available AI that is having an impact of people's lives _right now_
+
+- We're going to frame this discussion in terms of one of those AI systems: The Allegheny Family Screening Tool
+
+---
+
+class: bg_circuit center middle inverse
+
+## Case Study
+
+---
+
+class:bg_circuit
+
+## Allegheny Family Screening Tool
+
+- The Allegheny Family Screening Tool (AFST) is a product of the Allegheny County Office of Children, Youth, and Families (CYF)
+
+- The goal is to determine which reports of suspicious circumstances are most likely to be child abuse
+
+- About 3/4 of child welfare investigations are about neglect
+
+---
+
+class:bg_circuit
+
+## An example or risk scoring
+
+Risk scores are on a scale of 1-20. Where do you think these two cases fall?
+
+.pull-left[
+
+- Stephen
+    - 6 years old
+    - Stephen's mom found him locked out on the porch and suspected possible abuse
+    - A week later a homeless service agency reported him to CYF for poor hygiene and rumors his mother was using drugs
+    - No other record with CYF
+
+]
+
+.pull-right[
+
+- Krysztof
+    - 14 years old
+    - Cold house from broken door and window in Nov.
+    - Cluttered house, urine smell, family sleeps in living room
+    - Long family history with county programs
+
+]
+
+--
+
+.pull-left[
+
+- Risk Score: 5
+]
+
+.pull-right[
+
+- Risk Score: 14
+]
+
+---
+
+class: bg_circuit
+
+## AFST Database
+
+- Database created in 1999, now has 1 billion records, average of 800 per resident. 
+- 29 programs send extracts
+    - unemployment office
+    - local school districts
+    - housing authority
+    - police
+    - jail; juvenile probation
+    - drug and alcohol services
+- Costs 15 million per year (2% of budget)
+
+---
+
+class: bg_circuit
+
+## AFST project origins
+
+- Project originated in New Zealand with a team of academics
+- Predictive model with 132 variables
+    - length of time on public benefits
+    - past involvement with child welfare system
+    - mother's age
+    - born to single parent
+    - mental health
+    - correctional history
+- Accuracy was "fair, approaching good" in the academic's self-assessment
+- Shelved by New Zealand after public objections and a new Social Development Minister took office
+
+- Went live in Pittsburgh on 2016-08-01
+
+---
+
+class: bg_circuit
+
+## How AFST is used
+
+- AFST is step 3 in a 3-step process
+    1. Does it meet PA's definition of maltreatment?
+    2. Is there present or impending danger?
+    3. AFST risk score based on family history
+    
+- Ideally, the screeners will understand and question the model
+    - "I want them to be able to say this [screening score] is a twenty, but this allegation is so minimal that [all] this model is telling me is that there's history" (Automating Inequality, p. 139)
+
+- Do you think this is how the model actually gets used?
+
+--
+
+- "We tend to defer to machines, which can seem more neutral, more objective" (Automating Inequality, p. 142)
+
+---
+
+class: bg_circuit
+
+## Choices made in AFST 
+
+- Outcome variables
+- Predictive variables
+- Validation data
+
+---
+
+class: bg_circuit
+
+## Outcome variables
+
+- There are a few possible metrics
+    - Actual fatalities and near fatalities of children: Thankfully, there aren't enough of these to build a model on this data
+    - CYF substantiation of child maltreatment: CYF substantiates when there _may_ have been maltreatment. They may also substantiate to get families access to food stamps or affordable housing. 
+    
+- The system uses two proxies
+    - Community re-referral: call to hotline is initally screened out, but there is another call within 2 years
+    - Child placement: child is placed in foster care within two years
+    
+> "So the AFST actually predicts decisions made by the community (which families will be reported to the hotline) and by the agency and the family courts (which children will be removed from their families), not which children will be harmed" (p. 142)
+
+---
+
+class: bg_circuit
+
+## Predictive variables
+
+- Stepwise Probit Regression
+    - The book labels this 'controversial', but I'll go ahead and say bad. 
+    - I refuse to use stepwise variable selection on pricing models for Jack Daniel's, which is really unimportant compared to  this application
+    - Not the main point here, but I'd recommend either LASSO or a tree based method (Random Forest, Gradient Boosted Model)
+    
+- AFST tested 287 variables from the data warehouse and uses 131 of them. 
+
+- There is nothing in the method to justify causal inference, it's purely predictive. 
+
+---
+
+class: bg_circuit
+
+## Validation data
+
+- Model tested on 76,964 referalls from April 2010 to April 2014
+- 76% accuracy, halfway between coinflip and perfect
+- Same as yearly mammogram (which are now recommended to occur less because of false positives)
+
+---
+
+class: bg_circuit
+
+## Summary
+
+> "The AFST has inherent design flaws that limit its accuracy. It predicts referrals to the child abuse and neglect hotline and removal of children from their families - hypothetical proxies for child harm - not actual child maltreatment. The data set it utilizes contains only information about families who access public services, so it may be missing key factors that influence abuse and neglect. Finally, it's accuracy is only average. It is guaranteed to produce thousands of false negatives and positives annually." (p. 144)
+
+- The data warehouse only has data on _public_ programs, not private ones
+- The CYF has two roles that contradict
+    - provider of family support
+    - investigator of maltreatment
+- Bias in child welfare services comes more from referals than screening
+    - The community is more likely to call about non white families
+    - remember that one of our proxy outcomes is referals
+    
+- "the model confuses parenting while poor with poor parenting" (p. 156)
+    
+---
+
+class: bg_circuit
+
+## Cost of Errors
+
+- Opening an investigation is an intrusive and frightening event for families
+
+> "Once the big blue button is clicked and the AFST runs, it manifests a thousand invisible choices. But it does so under a cloak of evidence-based objectivity and infallibility" (p. 166)
+
+- There is also the possiblity that by increasing social isolation, material deprivation, and parenting stress an investigation may wind up increasing the risk of child abuse. That would mean the model is partially producing the outcome it's trying to measure (recidivism models certainly have this effect).
+
+---
+
+class: bg_circuit
+
+## This is a best-case scenario for Child Welfare models
+
+- Tool design was open and participatory
+- Implementation was relatively thoughtful and slow
+- Goals are relatively modest
+- The tool is meant to support _not replace_ human decisions
+- We still see several of the problems will spend the rest of this class digging into
+
+---
+
+class: bg_circuit middle inverse center
+
+# Ethics
+
+---
+
+class: bg_circuit
 
 ## Ethics as a matter of taste
 
@@ -110,7 +383,7 @@ class: bg_water
     - Within the range of things we agree are edible for humans, yes, there's variation
     - But we all agree that ice cream tastes better than dog shit
     
-- Our tastes aren't well adapted to a situation where fat and sugar are plentiful. 
+- Our tastes aren't well adapted to our modern food environment. 
 
 - Our ethical intuition is also not well adapted to the current situation
     - Our naturally good intentions may not be enough in a complicated world
@@ -118,7 +391,7 @@ class: bg_water
     
 ---
 
-class: bg_water
+class: bg_circuit
 
 ## Ethical Progress
 
@@ -130,16 +403,54 @@ class: bg_water
 
 ---
 
+class: bg_circuit
 
-xkcd gdpr
+## Defining Justice
 
+> To ask whether a society is just is to ask how it distributes the things we prize - income and wealth, duties and rights, powers and opportunities, offices and honors. A just society distributes these goods in the right way; it gives each person his or her due. The hard questions begin when we ask what people are due, and why. - Michael Sandel
 
+- Maximizing Welfare
+  - Utilitarians and other consequentialists
+  
+- Freedom
+  - Libertarians
+  - Fairness and Positive Liberty (Rawls, Sen)
 
+- Virtue
+  - Aristotle
+  - Religious Right and Religious Left
+  
+---
 
+class: bg_circuit
+
+## The Trolley Problem
+
+- The Trolley
+- The Organ Harvest
+
+- Competing Principles
+  - Welfare (save more people)
+  - Freedom/Rights (wrong to kill an innocent even for a good purpose)
+  
+- In real life there's also uncertainty
 
 ---
 
-class: bg_water center middle
+class: bg_circuit
+
+## Public Ethics
+
+- Moral reflection comes from encountering difficult moral questions
+- We move back and forth between acting in the world and reflecting on our actions
+- We also engage with other people
+- This is foundationally a pragmatic view of morality
+- We don't just sit in an office and come up with some theory of the good life
+- We have to actually live - and then also reflect how we're living. 
+
+---
+
+class: bg_circuit center middle
 
 A just society can't be achieved simply by maximizing utility or by securing freedom of choice. To achieve a just society, we have to reason together about the meaning of the good life, and to create a public culture hospitable to the disagreements that will inevitably arise
 
@@ -148,6 +459,132 @@ Michael Sandel, Justice p. 261
 
 ---
 
-class: bg_water
+## Ethics and Tech Skills
+
+- The virtue ethics view that Sandel is defending views ethics as a skill
+- Skills can be learned
+- It is generally the position of virtue ethicists that learning ethics is like learning tennis, or coding, or painting. 
+  - Learn from people who you think are good at it
+  - Practice
+- The downside is that practicing is hard. It's easier to have a list of rules not to break...but on this view ethical behavior requires intentionally cultivating ethical feelings and practices.
+
+---
+
+class: bg_circuit inverse center middle
+
+# Artificial Intelligence
+
+---
+
+class: bg_circuit
+
+## Opacity, Scale, and Damage
+
+- Is the model opaque? Can people reasonably understand how it is making decisions that affect them?
+- Can the model scale up in a way where use is widespread?
+- Can the model negatively impact people?
+
+Examples: loan scores, recidivism scores, hiring systems, standardized teacher evaluations, college admissions
+
+---
+
+class: bg_circuit
+
+## The Great Recession
+
+- One of the wake up calls on the dangers of models was the Great Recession
+
+- A lot of things went wrong, but driving it all was a failure of risk assessment
+
+- The odds of a house in Denver defaulting were assumed to be independent from the odds of a house in Louisville defaulting. This was wrong. (Same error in the 2016 election outside of the 538 model).
+
+---
+
+class: bg_circuit
+
+## Where can AI go wrong?
+
+- The training data
+- The modeling assumptions
+- The choice of objective function
+
+---
+
+class: bg_circuit inverse center middle
+
+## Conclusions
+
+---
+
+class: bg_circuit
+
+## AI and Ethics moving forward
+
+- Power
+- Perspective
+- Practice
+
+---
+
+class: bg_circuit 
+
+## Power
+
+- Power differentials are real
+- The benefits of AI and the harms of AI are felt by different groups of people
+  - Race, Gender, Class, Geography
+- The work that goes into data collection for a model can over be rendered invisible
+
+---
+
+class: bg_circuit
+
+## Perspective
+
+- Analytics involves breaking down the big picture to look at the pieces
+- A major risk is losing sight of the big picture altogether!
+- Context matters
+- Different people will see different things in data science problems. Privilege Hazard is the result of blindspots that people in privileged positions have. 
+- There is no neutral data visualization or neutral algorithm. They are reflections of the people who make them.
+- The lending problem: You cannot satisfy all reasonable mathematical definitions of 'fairness' at the same time.
+- AI cannot replace human judgment. This means we still have a lot of difficult problems to solve. 
+
+---
+
+class: bg_circuit center middle
+
+## Practice
+
+---
+
+class: bg_circuit center middle
+
+Virtue Ethics
+
+>A just society can't be achieved simply by maximizing utility or by securing freedom of choice. To achieve a just society, we have to reason together about the meaning of the good life, and to create a public culture hospitable to the disagreements that will inevitably arise
+
+Michael Sandel, Justice p. 261
+
+---
+
+class: bg_circuit 
+
+## A Checklist for Thoughtful Data Science
+
+- Have we listed how this technology can be attacked or abused?
+- Have we tested our training data to ensure it is fair and representative?
+- Have we studied and understood possible sources of bias in our data?
+- Does our team reflect diversity of opinions, backgrounds, and kinds of thought?
+- What kind of user consent do we need to collect to use the data?
+- Do we have a mechanism for gathering consent from users?
+- Have we explained clearly what users are consenting to?
+- Do we have a mechanism for redress if people are harmed by the results?
+- Can we shut down this software in production if it is behaving badly?
+- Have we tested for fairness with respect to different user groups?
+- Have we tested for disparate error rates among different user groups?
+- Do we test and monitor for model drift to ensure our software remains fair over time?
+- Do we have a plan to protect and secure user data?
 
 https://www.oreilly.com/radar/of-oaths-and-checklists/
+
+
