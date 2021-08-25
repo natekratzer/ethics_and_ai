@@ -1,8 +1,8 @@
 ---
 title: "Ethics and AI"
 author: 
-  - "Dr. Nate Kratzer"
-date: "2021-08-13"
+  - "Nate Kratzer"
+date: "2021-08-25"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -107,8 +107,13 @@ class: bg_circuit
 
 ## Statistics and Machine Learning
 
-- Statistics has the data and the rules and comes up the the answers
-- Machine Learning has the data and the answers and comes up with the rules
+- A mathematical model has 3 basic components
+  - Input data
+  - Rules to transform the input
+  - Output (answers)
+
+- Statistics has the input data and the rules and comes up the the answers
+- Machine Learning has the input data and the answers and comes up with the rules
 
 - The rules then get used on new cases
 - One of the reasons machine learning algorithms deserve more scrutiny is because the rules (decision making process) they come up with are not easy to explain. 
@@ -123,6 +128,8 @@ Cathy O'Neil, Weapons of Math Destruction, p. 21
 
 
 ---
+
+class: bg_circuit
 
 ## General AI or Current AI
 
@@ -403,37 +410,17 @@ class: bg_circuit
 
 ---
 
-class: bg_circuit
+class: bg_circuit inverse center middle
 
 ## Defining Justice
 
 > To ask whether a society is just is to ask how it distributes the things we prize - income and wealth, duties and rights, powers and opportunities, offices and honors. A just society distributes these goods in the right way; it gives each person his or her due. The hard questions begin when we ask what people are due, and why. - Michael Sandel
 
-- Maximizing Welfare
-  - Utilitarians and other consequentialists
-  
-- Freedom
-  - Libertarians
-  - Fairness and Positive Liberty (Rawls, Sen)
-
-- Virtue
-  - Aristotle
-  - Religious Right and Religious Left
-  
 ---
 
-class: bg_circuit
+class: bg_circuit inverse center middle
 
-## The Trolley Problem
-
-- The Trolley
-- The Organ Harvest
-
-- Competing Principles
-  - Welfare (save more people)
-  - Freedom/Rights (wrong to kill an innocent even for a good purpose)
-  
-- In real life there's also uncertainty
+## Ethical Frames
 
 ---
 
@@ -452,12 +439,14 @@ class: bg_circuit
 
 class: bg_circuit center middle
 
-A just society can't be achieved simply by maximizing utility or by securing freedom of choice. To achieve a just society, we have to reason together about the meaning of the good life, and to create a public culture hospitable to the disagreements that will inevitably arise
+> A just society can't be achieved simply by maximizing utility or by securing freedom of choice. To achieve a just society, we have to reason together about the meaning of the good life, and to create a public culture hospitable to the disagreements that will inevitably arise
 
 Michael Sandel, Justice p. 261
 
 
 ---
+
+class: bg_circuit
 
 ## Ethics and Tech Skills
 
@@ -507,6 +496,18 @@ class: bg_circuit
 - The training data
 - The modeling assumptions
 - The choice of objective function
+
+---
+
+class: bg_circuit
+
+## What about the flaws in human judgment?
+
+- AI may be flawed/biased, but is it better than human judgment
+
+- Two ways that AI can make bias worse
+  - The tendency we have to elevate it as 'objective' without understanding it.
+  - Mechanically it can take a slight bias in input data and scale it to a consistent bias. 
 
 ---
 
